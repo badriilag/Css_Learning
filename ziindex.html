@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZiIndex</title>
+    <style>
+        .container {
+            position: relative;
+        }
+        .circle {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border: 3px solid silver;
+            border-radius: 50%;
+        }
+        .orange {
+            background-color: orange;
+            left: 40px;
+            z-index: 5;
+        }
+        .black {
+            background-color: black;
+            left: 80px;
+            z-index: 71;
+
+        }
+        .red {
+            background-color: red;
+            left: 120px;
+            z-index: 8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle orange"></div>
+        <div class="circle black"></div>
+        <div class="circle red"></div>
+    </div>
+    
+</body>
+</html>

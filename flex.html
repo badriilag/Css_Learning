@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+
+        /* Flex container*/
+        .flex-container {
+            display: flex;
+            flex-flow: row wrap;
+            list-style:disc;
+            justify-content: space-between;
+
+        }
+
+        .flex-items {
+            background-color: rgb(12, 17, 17);
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+
+        .img_area {
+            display: flex;
+            flex-direction: row;
+            background-color: lavender;
+           
+            flex-wrap: wrap;
+            list-style:circle;
+            justify-content:space-between;
+        }
+        .img1{
+        
+            height: 500px;
+            background-color: aqua;
+            width: 500px;
+            padding: 10px;
+            margin: 50px;
+        
+
+        }
+    </style>
+</head>
+<body>
+
+    <!--li.Flex-items*10 shortcut vs code-->
+    <ul class="flex-container">
+
+      <!--- <li class="flex-items">1</li>
+        <li class="flex-items">2</li>
+        <li class="flex-items">3</li>
+        <li class="flex-items">4</li>
+        <li class="flex-items">5</li>
+    -->
+    
+
+    </ul>
+    <div class="img_area">
+        <img class="img1" src="images/shelby.jpg" >
+        <img class="img1" src="images/butterfly">
+        <img class="img1" src="images/shelby.jpg">
+        <img class="img1" src="images/Rose -7.jpg" >
+        <img class="img1" src="images/shelby.jpg">
+        <img class="img1" src="images/shelby.jpg">
+        <img class="img1" src="images/shelby.jpg" >
+        <img class="img1" src="images/shelby.jpg">
+        <img class="img1" src="images/shelby.jpg">
+    </div>
+    
+    
+</body>
+</html>

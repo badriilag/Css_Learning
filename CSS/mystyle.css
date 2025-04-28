@@ -1,0 +1,26 @@
+p{
+    font-size: 52px;
+    color:black;
+}
+h5{
+    color: rgb(28, 120, 92);
+    font-size: 42;
+}
+
+.box_model {
+    /* Border values SOlid,Dashed,double,dotted,inset,outset*/
+    border: 12px outset orange;
+
+    /*Padding :30px */
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+
+    /* Margin:50px */
+
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}

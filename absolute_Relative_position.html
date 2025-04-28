@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute,relative</title>
+
+    <style>
+        .rel {
+            position: relative;
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+            left: 200px;
+            top: 100px;
+        }
+        .tv {
+            position: absolute;
+            height: 50px;
+            width: 150px;
+            background-color: pink;
+            left: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sofa {
+            position: absolute;
+            height: 100px;
+            width: 250px;
+            background-color: brown;
+            left: 150px;
+            top: 100px;
+            display: flex;
+            /* it is horizontaly  centre*/
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .freeze {
+            position: absolute;
+            height: 200px;
+            width: 150px;
+            background-color:chocolate;
+            left: 350px;
+            top: 300px;
+            display: flex;
+            /* it is vertically centre */
+            justify-content: center;
+            align-items: center;
+        }
+        .board {
+            position: absolute;
+            height: 100px;
+            width: 150px;
+            background-color: blueviolet;
+            left: 10px;
+            top: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="rel">
+        <div class="tv"><strong>TV</strong></div>
+        <div class="sofa"><strong>SOFA</strong></div>
+        <div class="freeze"><strong>FREEZE</strong></div>
+        <div class="board"><strong>Electric Board</strong></div>
+    </div>
+</body>
+</html>
