@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(79, 165, 42);
+            color: orange;
+            transition: 2s;
+            float: left;
+            margin-left: 40px;
+
+        }
+        .box1:hover {
+            transform: translate(125px, 135px);/*--In the Translate 125px means the x-Axis,135px means y-axis*/
+           
+        }
+        .box2:hover {
+            transform: translateX(120px );
+        }
+        .box3:hover{
+            transform: translateY(120px);
+        }
+        .box4:hover {
+            transform: rotate(360deg);
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box1">Translate</div>
+    <div class="box box2">Translate X</div>
+    <div class="box box3">Translate Y</div>
+    <div class="box box4">Rotate</div>
+    
+</body>
+</html>
