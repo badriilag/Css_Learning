@@ -12,31 +12,42 @@
             color: orange;
             transition: 2s;
             float: left;
+            border: 5px inset aqua;
+            border-radius: 40%;
+            text-align:center;
+            justify-items: center;
             margin-left: 40px;
 
         }
         .box1:hover {
             transform: translate(125px, 135px);/*--In the Translate 125px means the x-Axis,135px means y-axis*/
-           
+            background-color: black;
         }
         .box2:hover {
             transform: translateX(120px );
+            background-color: orange;
         }
         .box3:hover{
             transform: translateY(120px);
+            background-color: cadetblue;
         }
         .box4:hover {
             transform: rotate(360deg);
             background-color: aquamarine;
         }
+        .box5:hover {
+            transform:rotate(170deg);
+            background-color: rgb(20, 230, 211);
+        }
     </style>
 </head>
 <body>
 
-    <div class="box box1">Translate</div>
+    <div class="box box1">Translate </div>
     <div class="box box2">Translate X</div>
     <div class="box box3">Translate Y</div>
     <div class="box box4">Rotate</div>
+    <div class="box box5">3D</div>
     
 </body>
 </html>

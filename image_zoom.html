@@ -13,15 +13,31 @@
             overflow: hidden;
         }
         .inner_img {
-            width: 100%;
-            height: 100%;
+            width: 500px;
+            height: 500px;
             transition: 5s;
             object-fit: cover;
         }
         .inner_img:hover {
             transform: scale(2);
+
+        .inner_rose {
+                width: 500px;
+                height: 450px;
+                border: 2px solid orange;
+                position: relative;
+                overflow: hidden;
+            }
         }
-       
+        .inner_rose {
+            width: 400px;
+            height: 400px;
+            transition: 10s;
+            object-fit:fill;
+        }
+       .inner_rose:hover{
+        transform: scale(3);
+       }
     </style>
 </head>
 <body>
@@ -31,9 +47,12 @@
     <div class="image_wrapper" >
 
         <div class="image_wrapper"> <img src="/images/kingf" alt="shelby" class="inner_img"></div>
-         
        
+    </div>
 
+    <div class="rose">
+
+        <div class="image_wrapper"><img src="/images/Rose -7.jpg" alt="" class="inner_rose"></div>
 
     </div>
     

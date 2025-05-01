@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleAmimation</title>
+    <style>
+
+        div{
+            width: 350px;
+            height: 350px;
+            background-color: orange;
+            position: relative;
+            animation: circle;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            /*animation-direction: alternate-reverse;-- using for alternate reverse--*/
+            animation-delay: 1s;/*--5 min late roatete hoyil--*/
+            border-radius: 50%;
+            border: 4px 2px blue;
+            display: flex;
+            align-items:  center;
+            justify-content: center;
+            
+
+        }
+
+        @keyframes circle
+        {
+            0%{
+                background-color: aqua;
+                left: 0px;
+                right: 0px;
+            }
+            25%{
+                background-color: rgb(0, 255, 26);
+                left: 300px;
+                top: 0px;
+            }
+            50%{
+                background-color: rgb(255, 0, 157);
+                left: 300px;
+                top: 300px;
+            }
+            75%{
+                background-color: rgb(255, 0, 0);
+                left: 0px;
+                top: 300px;
+            }
+            100%{
+                background-color: rgb(25, 251, 120);
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>Hurry 50% OFF</div>
+    
+</body>
+</html>
